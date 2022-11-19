@@ -1,0 +1,23 @@
+{
+	"name": "qdsql",
+	"description": "Quick and Dirty SQL Query Builder - It's not an ORM, it's nor is it clever in any way, BUT it's NOT a raw unescaped SQL string which is possibly worse.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "Mozilla Public 2.0",
+	"keywords": [
+		"sql",
+		"query builder",
+		"mysql",
+		"postgresql",
+		"sqlite",
+		"mssql",
+		"oracle"
+	],
+	"dependencies": {
+		"uuid": "^9.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.9",
+		"@types/uuid": "^8.3.4"
+	}
+}

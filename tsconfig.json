@@ -1,0 +1,43 @@
+{
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"baseUrl":                "./",
+		"outDir":                 "./dist",
+		"rootDir":                "./src",
+		"module":                 "CommonJS",
+		"moduleResolution":       "node",
+		"esModuleInterop":        true,
+		"noImplicitAny":          false,
+		"removeComments":         true,
+		"preserveConstEnums":     true,
+		"strict":                 false,
+		"pretty":                 false,
+
+		"target":                 "ES2015",
+		"lib":                    [
+			"ES2015",
+			"ES2017.TypedArrays"
+		],
+		"sourceMap":              false,
+		"emitDecoratorMetadata":  true,
+		"skipLibCheck":           true,
+		"paths":                  {
+			"@test/*": [
+				"./test/*"
+			]
+		}
+	},
+	"ts-node":         {
+		"require": [
+			"tsconfig-paths/register"
+		]
+	},
+	"exclude":         [
+		"node_modules",
+		"build",
+		"dist"
+	],
+	"include":         [
+		"src/**/*"
+	]
+}
